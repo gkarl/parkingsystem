@@ -36,9 +36,27 @@ public class FareCalculatorService {
                 default:
                     throw new IllegalArgumentException("Unkown Parking Type");
             }
+            // add a 5% discount for recurring users
+        } else if (duration > 0.5 && nombreOccurenceTicket > 1)
+            switch (ticket.getParkingSpot().getParkingType()) {
+                case CAR: {
+                    System.out.println(welomeBackText);
+                    // ticket.setPrice(duration * Fare.CAR_RATE_PER_HOUR);
+                    return duration * Fare.CAR_RATE_PER_HOUR * 0.95;
+                    // break;
+                }
+                case BIKE: {
+                    System.out.println(welomeBackText);
+                    // ticket.setPrice(duration * Fare.BIKE_RATE_PER_HOUR);
+                    return duration * Fare.BIKE_RATE_PER_HOUR * 0.95;
+                    // break;
+                }
+                default:
+                    throw new IllegalArgumentException("Unkown Parking Type");
+            }
             // parking feature free for the first 30 minutes
-        }else if (duration < 0.5) {
-                return duration * Fare.PARK_LESS_THAN_HALF_HOUR;
+        else if (duration < 0.5) {
+            return duration * Fare.PARK_LESS_THAN_HALF_HOUR;
         }
         return 1;
     }
