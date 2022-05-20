@@ -33,8 +33,12 @@ public class FareCalculatorService {
                     return duration * Fare.BIKE_RATE_PER_HOUR;
                     // break;
                 }
-                default: throw new IllegalArgumentException("Unkown Parking Type");
+                default:
+                    throw new IllegalArgumentException("Unkown Parking Type");
             }
+            // parking feature free for the first 30 minutes
+        }else if (duration < 0.5) {
+                return duration * Fare.PARK_LESS_THAN_HALF_HOUR;
         }
         return 1;
     }

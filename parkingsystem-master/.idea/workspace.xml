@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f73fa411-b424-4bf0-b377-fb07bb8e7ddd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/constants/Fare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/constants/Fare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/service/FareCalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parkit/parkingsystem/service/FareCalculatorService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/FareCalculatorServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parkit/parkingsystem/FareCalculatorServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/service/FareCalculatorService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/service/FareCalculatorService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/service/FareCalculatorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/parkit/parkingsystem/service/FareCalculatorService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,9 +151,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FareCalculatorServiceTest" />
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.FareCalculatorServiceTest.calculateFareCarWithMoreThanADayParkingTime" />
         <item itemvalue="JUnit.FareCalculatorServiceTest.calculateFareBikeWithMoreThanADayParkingTime" />
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.ParkingDataBaseIT" />
       </list>
     </recent_temporary>
@@ -180,7 +183,7 @@
       <workItem from="1652854737130" duration="86000" />
       <workItem from="1652854845644" duration="82000" />
       <workItem from="1652854952615" duration="25000" />
-      <workItem from="1652855001614" duration="7089000" />
+      <workItem from="1652855001614" duration="8484000" />
     </task>
     <servers />
   </component>
@@ -200,30 +203,30 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1141" y="369" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1652685146072" />
-    <state width="1694" height="371" key="GridCell.Tab.0.bottom" timestamp="1653021527494">
+    <state width="1694" height="371" key="GridCell.Tab.0.bottom" timestamp="1653024028877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1694" height="64" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1652694312150" />
     <state width="1196" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1651761476454" />
-    <state width="1694" height="371" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653021527494" />
-    <state width="1694" height="371" key="GridCell.Tab.0.center" timestamp="1653021527493">
+    <state width="1694" height="371" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653024028877" />
+    <state width="1694" height="371" key="GridCell.Tab.0.center" timestamp="1653024028877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1694" height="64" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1652694312150" />
     <state width="1196" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1651761476453" />
-    <state width="1694" height="371" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653021527493" />
-    <state width="1694" height="371" key="GridCell.Tab.0.left" timestamp="1653021527493">
+    <state width="1694" height="371" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653024028877" />
+    <state width="1694" height="371" key="GridCell.Tab.0.left" timestamp="1653024028877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1694" height="64" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1652694312149" />
     <state width="1196" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1651761476453" />
-    <state width="1694" height="371" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653021527493" />
-    <state width="1694" height="371" key="GridCell.Tab.0.right" timestamp="1653021527494">
+    <state width="1694" height="371" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653024028877" />
+    <state width="1694" height="371" key="GridCell.Tab.0.right" timestamp="1653024028877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1694" height="64" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1652694312150" />
     <state width="1196" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1651761476454" />
-    <state width="1694" height="371" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653021527494" />
+    <state width="1694" height="371" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653024028877" />
     <state width="1877" height="249" key="GridCell.Tab.1.bottom" timestamp="1652118813065">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -270,7 +273,7 @@
     <SUITE FILE_PATH="coverage/parking_system$App.ic" NAME="App Coverage Results" MODIFIED="1652270914956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.parkit.parkingsystem.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/parking_system$FareCalculatorServiceTest.ic" NAME="FareCalculatorServiceTest Coverage Results" MODIFIED="1653021527450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/parking_system$FareCalculatorServiceTest.ic" NAME="FareCalculatorServiceTest Coverage Results" MODIFIED="1653024028837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.parkit.parkingsystem.*</FILTER>
     </SUITE>
   </component>
