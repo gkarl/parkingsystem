@@ -21,9 +21,7 @@ public class ParkingSpot {
         this.number = number;
     }
 
-    public ParkingType getParkingType() {
-        return parkingType;
-    }
+    public ParkingType getParkingType() { return parkingType; }
 
     public void setParkingType(ParkingType parkingType) {
         this.parkingType = parkingType;
