@@ -1,0 +1,13 @@
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\App.java
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\model\Ticket.java
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\constants\Fare.java
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\config\DataBaseConfig.java
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\service\InteractiveShell.java
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\constants\DBConstants.java
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\dao\ParkingSpotDAO.java
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\service\ParkingService.java
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\util\InputReaderUtil.java
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\constants\ParkingType.java
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\model\ParkingSpot.java
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\service\FareCalculatorService.java
+E:\Msc2+1\OpenClassRoom\4-Projet - Move'it\Projet\workspace\parkingsystem-master\src\main\java\com\parkit\parkingsystem\dao\TicketDAO.java
