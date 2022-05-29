@@ -97,13 +97,13 @@ public class ParkingService {
         }
     }
 
+
     public void processExitingVehicle() {
         try{
             String vehicleRegNumber = getVehichleRegNumber();
             Ticket ticket = ticketDAO.getTicket(vehicleRegNumber);
             Date outTime = new Date();
             ticket.setOutTime(outTime);
-
             int nombreOccurenceTicket = ticketDAO.occurence(vehicleRegNumber);
             //fareCalculatorService.calculateFare(ticket);
             fareCalculatorService.calculateFare(ticket, nombreOccurenceTicket);
