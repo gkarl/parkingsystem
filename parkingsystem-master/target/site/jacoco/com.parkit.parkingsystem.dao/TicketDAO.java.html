@@ -88,7 +88,7 @@ import java.sql.*;
 <span class="nc" id="L88">        Connection con = null;</span>
         try {
 <span class="nc" id="L90">            con = dataBaseConfig.getConnection();</span>
-<span class="nc" id="L91">            PreparedStatement ps = con.prepareStatement(DBConstants.VIP);</span>
+<span class="nc" id="L91">            PreparedStatement ps = con.prepareStatement(DBConstants.CHECK_OLD_CUSTOMER_LICENCE_PLATE);</span>
 <span class="nc" id="L92">            ps.setString(1, vehiculeRegNumber);</span>
 <span class="nc" id="L93">            ResultSet rs = ps.executeQuery();</span>
 <span class="nc bnc" id="L94" title="All 2 branches missed.">            if (rs.next()) {</span>
@@ -99,9 +99,10 @@ import java.sql.*;
 <span class="nc" id="L99">            e.printStackTrace();</span>
 <span class="nc" id="L100">        } catch (SQLException e) {</span>
 <span class="nc" id="L101">            e.printStackTrace();</span>
-<span class="nc" id="L102">        }</span>
-<span class="nc" id="L103">        return 0;</span>
-
+        }finally {
+<span class="nc" id="L103">            dataBaseConfig.closeConnection(con);</span>
+        }
+<span class="nc" id="L105">        return 0;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
